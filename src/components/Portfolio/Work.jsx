@@ -29,9 +29,13 @@ const Work = ({
   category,
 }) => {
   return (
-    <div className={`flex ${reverse ? "flex-row-reverse" : "flex-row"} px-[24px] gap-[24px] flex-wrap`} >
-      <div className=" flex flex-col gap-[10px] flex-1 min-w-[300px]">
-      {/* max-w-[421px] */}
+    <div
+      className={`flex ${
+        reverse ? "flex-row-reverse" : "flex-row"
+      } px-[24px] gap-[24px] items-center justify-center flex-wrap`}
+    >
+      <div className=" flex flex-col gap-[10px]  lg:basis-[calc(50%-24px)]">
+        {/* max-w-[421px] */}
         <span
           className="text-[#FFFFFF] text-[14px] text-center font-bold max-w-[72px] rounded-[60px]"
           style={{
@@ -48,11 +52,15 @@ const Work = ({
           style={{ backgroundColor: buttonColor }}
         >
           <span>View case study </span>
-          <img src={Vector} className="w-[12px] h-[12px]" />
+          <img src={Vector} className="w-[12px] h-[12px] " />
         </div>
       </div>
-      <div className="max-w-[445px] flex-1 min-w-[300px] m-auto">
-        <img src={image} alt="" className="w-full object-contain" />
+      <div className=" lg:basis-[calc(50%-24px)]">
+        <img
+          src={image}
+          alt=""
+          className="w-full max-w-[445px] object-contain"
+        />
       </div>
     </div>
   );
