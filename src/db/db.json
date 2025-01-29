@@ -1,0 +1,32 @@
+{
+    "works": [
+      {
+        "id": 1,
+        "heading": "Work name here",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": "src/assets/Mask.png",
+        "link": "/",
+        "buttonColor": "#FFA217",
+        "category": "Fintech"
+      },
+      {
+        "id": 2,
+        "heading": "Work name here",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": "src/assets/Mask2.png",
+        "link": "/",
+        "buttonColor": "#000AFF",
+        "category": "EdTech"
+      },
+      {
+        "id": 3,
+        "heading": "Work name here",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": "src/assets/Mask3.png",
+        "link": "/",
+        "buttonColor": "#2AB090",
+        "category": "Pharma"
+      }
+    ]
+  }
+  
