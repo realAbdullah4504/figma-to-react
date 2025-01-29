@@ -16,10 +16,15 @@ export default {
       "gray-dark": "#273444",
       gray: "#8492a6",
       "gray-light": "#d3dce6",
+      dark:"#9C9C9C"
+    },
+    backgroundColor: {
+      primaryDark: "#080808",
+      secondaryDark: "#1B1B1B",
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ['IBM Plex Mono', 'monospace'],
+      railway: ['Raleway', 'sans-serif'],
     },
     extend: {
       spacing: {
