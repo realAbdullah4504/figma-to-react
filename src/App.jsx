@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <>
+    <div className="min-w-[390px]">
       <Header />
       <HeroPage />
       <Portfolio />
@@ -16,7 +16,7 @@ function App() {
       <RecentWork />
       <Contact/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

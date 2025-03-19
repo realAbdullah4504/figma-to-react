@@ -4,8 +4,8 @@ import photo from "../../assets/photo.png";
 
 const Hero = () => {
   return (
-    <div className="flex  flex-1 flex-wrap-reverse px-4 mt-[20px] lg:mt-0 w-[85%] m-auto items-center">
-      <div className="flex flex-col gap-[30px] max-w-[492px] m-auto">
+    <div className="flex  flex-1 flex-wrap-reverse px-4 mt-[20px] lg:mt-0 w-[85%] justify-evenly items-center m-auto">
+      <div className="flex flex-col gap-[30px] basis-[492px]">
         <div className="text-[44px] font-extrabold font-railway">
           <span>Your Name Here</span>
         </div>
@@ -20,7 +20,7 @@ const Hero = () => {
           <img src={Vector} className="w-[12px] h-[12px]" />
         </div>
       </div>
-      <img src={photo} className="m-auto w-[350px] h-[350px]"/>
+      <img src={photo} className="w-[350px] h-[350px]"/>
     </div>
   );
 };
